@@ -1,0 +1,16 @@
+# NaviFi AI Deployment Notes
+
+## IBM Watsonx Agent Setup:
+- Model: Granite-3-3-8b-instruct.
+- Framework: LangGraph.
+- Architecture: ReAct.
+- Tools Added: Google Search Tool.
+- Knowledge Vector Index: NCFM_Financial_Literacy_Knowledge.pdf.
+
+## Manual Steps:
+- Uploaded Vector Index in Knowledge Section.
+- Configured agent instructions for safe & citizen-first responses.
+- Deployed via IBM Watsonx Agent Lab.
+
+## API Endpoint :
+https://us-south.ml.cloud.ibm.com/ml/v4/deployments/bce6ed0a-f831-44a0-8cd0-f901ec7d171a/ai_service?version=2021-05-01
